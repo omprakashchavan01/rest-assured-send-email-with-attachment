@@ -15,8 +15,8 @@ public class SendEmailWithAttachment {
         MimeMessage mimeMessage = Util.createEmailWithAttachment(
                 "enter_receiver_email_address",
                 "enter_sender_email_address",
-                "Hi",
-                "Hi dude, this was easy",
+                "enter_subject_here",
+                "enter_message_body_here",
                 new File("enter_file_path_here_e.g._D:/temp.txt_supports_less_than_5mb"));
 
         ByteArrayOutputStream buffer = new ByteArrayOutputStream();
